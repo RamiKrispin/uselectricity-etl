@@ -17,10 +17,6 @@
             "version":"1.2.0"
         },
         {
-            "package": "highcharter",
-            "version":"0.9.4"
-        },
-        {
             "package": "readr",
             "version":"2.1.2"
         },
