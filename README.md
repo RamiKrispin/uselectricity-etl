@@ -8,6 +8,18 @@ This repo provides a step-by-step guide and a template for creating and monitori
 
 # Environment
 
+## Environment variables
+
+Set the following environment variables on your bash setting (e.g., `.zshrc` or equivalent):
+
+``` shell
+# US Electricity ETL
+export RSTUDIO_CONFIG_PATH=$HOME/.config/rstudio
+export US_ELECTRICITY_IMAGE=rkrispin/us_electricity_etl:dev.0.0.0.9000
+export US_ELECTRICITY_DIR=YOUR_PROJECT_DIRECTORY
+export EIA_API_KEY=YOUR_API_KEY
+```
+
 # ETL functions
 
 # Deploy on Github Actions
