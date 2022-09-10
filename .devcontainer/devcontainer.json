@@ -1,11 +1,9 @@
 {
     "name": "US-Electricity-ETL",
-    "image": "${localEnv:US_ELECTRICITY_IMAGE}",
+    "image": "docker.io/rkrispin/us_electricity_etl:dev.0.0.0.9000",
     "customizations": {
         "vscode": {
-            "settings": {
-                "python.defaultInterpreterPath": "/opt/conda/envs/us_electricity_etl/bin/python"
-            },
+            
             "extensions": [
                 "quarto.quarto",
                 "ms-azuretools.vscode-docker",
@@ -21,8 +19,6 @@
             ]
         }
     },
-    "mounts": [        
-        "source=${localEnv:US_ELECTRICITY_DIR},target=/home/,type=bind,consistency=cache"],
     "remoteEnv": {
         "EIA_API_KEY": "${localEnv:EIA_API_KEY}"
     },
