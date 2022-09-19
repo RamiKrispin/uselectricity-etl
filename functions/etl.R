@@ -67,7 +67,7 @@ eia_query <- function(api_key,
 
 eia_category <- function(api_key, category_id = NULL){
   url <- get <- output <- NULL
-  
+  `%>%` <- magrittr::`%>%`
   if(!is.numeric(category_id)){
     stop("The category_id argument is not valid")
   } else if(!is.character(api_key)){
