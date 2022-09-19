@@ -6,6 +6,8 @@ This repo provides a step-by-step guide and a template for creating and monitori
 
 # General Architect
 
+<img src="images/etl diagram.png" width="100%" />
+
 # Environment
 
 ## Environment variables
