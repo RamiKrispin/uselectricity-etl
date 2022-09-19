@@ -11,5 +11,8 @@ services:
       - type: "bind"
         source: "$RSTUDIO_CONFIG_PATH"
         target: "/home/rstudio/.config/rstudio"
+      - type: "bind"
+        source: "$HOME/.Renviron"
+        target: "/home/rstudio/.Renviron"
     environment:
       EIA_API_KEY: $EIA_API_KEY
