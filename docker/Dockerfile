@@ -31,6 +31,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libfribidi-dev \
     libharfbuzz-dev \
     libfontconfig1-dev \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
 # installing R packages

@@ -39,6 +39,10 @@
         {
             "package": "h2o",
             "version":"3.36.1.2"
+        },
+        {
+            "package": "data.table",
+            "version":"1.14.2"
         }
         
        
